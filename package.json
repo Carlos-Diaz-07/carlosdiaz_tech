@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Carlos-Ciaz-07.github.io/carlosdiaz_tech",
+  "homepage": "YOUR.CUSTOM.DOMAIN",
   "name": "carlosdiaz_tech",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +13,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
