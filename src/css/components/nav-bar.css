@@ -1,0 +1,38 @@
+#nav-bar-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: space-between;
+  min-width: 100vw;
+  height: 59px;
+  left: 0px;
+  top: 0px;
+  background: rgba(38, 70, 83, 0.75);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+#nav-bar-logo {
+  padding-left: 4%;
+  padding-top: 7px;
+}
+
+#nav-bar-list {
+  display: flex;
+  list-style: none;
+  padding-right: 30px;
+  width: 25%;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.nav-bar-item a {
+  text-decoration: none;
+  font-family: Nova Square;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+
+  color: #ff6f1e;
+}
