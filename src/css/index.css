@@ -1,9 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+ 
   margin: 0;
   font-family: Nova Square;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #264653;
+}
+h1,
+h2,
+h3,
+p {
+  line-height: 0;
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -11,16 +25,13 @@ h1 {
   font-style: normal;
   font-weight: normal;
   /* font-size: 90px; */
-  font-size: 5.62rem;
-  /* identical to box height */
+  font-size: 5.5vw;
 
   display: flex;
+
   align-items: flex-end;
   letter-spacing: -0.05em;
-  padding: 0;
-  margin: 0;
   text-align: left;
-
 
   color: #ffffff;
 
@@ -31,20 +42,16 @@ h2 {
   font-family: Nova Square;
   font-style: normal;
   font-weight: normal;
-  font-size: 80px;
-  /* identical to box height */
+  font-size: 4.5vw;
 
   display: flex;
+ 
   align-items: flex-end;
   letter-spacing: -0.05em;
   text-align: left;
-
+ 
 
   color: #2a9d8f;
-  padding: 0;
-  margin: 0;
-
-
 
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -53,33 +60,29 @@ h3 {
   font-family: Nova Square;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  /* identical to box height */
+  font-size: 2vw;
 
   display: flex;
+
   align-items: flex-end;
   text-align: left;
 
 
   color: #ff6f1e;
-  padding: 0;
-  margin: 0;
-
-
 }
 
 p {
   font-family: Nova Square;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.2rem;
+  font-size: 1em;
+
   display: flex;
+
   align-items: flex-end;
   letter-spacing: -0.05em;
   text-align: left;
 
   color: #2a9d8f;
-  padding: 0;
-  margin: 0;
-
 }
+
