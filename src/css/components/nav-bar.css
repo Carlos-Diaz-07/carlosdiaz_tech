@@ -7,7 +7,8 @@
 #nav-bar-container {
   display: flex;
   align-items: center;
-  position: absolute;
+  position: fixed;
+  z-index: 10;
   justify-content: space-between;
   min-width: 100vw;
   height: 59px;
@@ -48,8 +49,3 @@
   color: #ff6f1e;
 }
 
-@media (max-width: 1250px) {
-  #nav-bar-list {
-    width: 15rem;
-  }
-}
