@@ -3,7 +3,7 @@ import "../css/components/hero-section.css"
 
 const HeroSection = () => {
     return (
-        <div className="hero-section">
+        <div className="hero-section section">
             <h3>Hi, my name is</h3>
             <h1>Carlos Diaz.</h1>
             <h2>I build things for the web.</h2>

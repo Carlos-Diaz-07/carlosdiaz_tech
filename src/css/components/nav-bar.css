@@ -1,10 +1,10 @@
 @media (max-width: 1250px) {
-  #nav-bar-list {
+  .nav-bar-list {
     width: 15rem;
   }
 }
 
-#nav-bar-container {
+.nav-bar-container {
   display: flex;
   align-items: center;
   position: fixed;
@@ -14,16 +14,16 @@
   height: 59px;
   left: 0px;
   top: 0px;
-  background: rgba(38, 70, 83, 0.75);
+  background: rgba(38, 70, 83, 0.8);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
-#nav-bar-logo {
+.nav-bar-logo {
   margin-left: 8%;
   padding-top: 7px;
 }
 
-#nav-bar-list {
+.nav-bar-list {
   display: flex;
   list-style: none;
   padding: 0;
