@@ -6,6 +6,7 @@ const AboutMeSection = () => {
   return (
     <div className="about-me-section section" id="about-me-section">
       <h3 className="about-me-section-title section-title">About Me</h3>
+      <div className="section-title-line"></div>
       <p>
         alotof words all here, chlling out again and again alotof words all
         here, chlling out again and again alotof words all here, chlling out

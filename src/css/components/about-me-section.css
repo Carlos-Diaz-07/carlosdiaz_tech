@@ -1,14 +1,11 @@
 .about-me-section {
   position: relative;
-  width: 50vw;
+ 
 }
 
-.about-me-section-title {
-    width: 80%;
-}
 
 .about-me-section p {
-  width: 80%;
+  width: 60%;
 }
 
 .about-me-section ul {
@@ -34,7 +31,7 @@
 
 .small-carlos {
   position: absolute;
-  left: 90%;
+  left: 65%;
   right: 0%;
   top: 20%;
   bottom: 0%;
