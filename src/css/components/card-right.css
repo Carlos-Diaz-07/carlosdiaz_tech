@@ -1,0 +1,44 @@
+.card-right {
+    text-align: left;
+
+}
+
+.card-text-container-right {
+  position: absolute;
+  right: 2%;
+  top: 15%;
+  z-index: 9;
+  max-width: 261px;
+  background: rgba(38, 70, 83, 0.75);
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card-title {
+  position: absolute;
+  top: -8%;
+  width: 100%;
+}
+
+.card-title-line {
+  width: 100%;
+
+  border: 1px solid #ff6f1e;
+}
+
+.card-img-container {
+  position: absolute;
+
+  width: 70%;
+  height: 316px;
+}
+
+.card-img-right {
+  position: relative;
+  /* right: 28.79%; */
+  width: 70%;
+  height: 100%;
+}

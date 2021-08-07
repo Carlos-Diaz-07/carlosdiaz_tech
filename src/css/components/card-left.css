@@ -1,0 +1,39 @@
+.card-text-container {
+  position: absolute;
+  left: 15%;
+  top: 15%;
+  z-index: 9;
+  max-width: 261px;
+  background: rgba(38, 70, 83, 0.75);
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card-title-left {
+  position: absolute;
+  text-align: left;
+  top: -8%;
+}
+
+.card-title-line {
+  width: 100%;
+
+  border: 1px solid #ff6f1e;
+}
+
+.card-img-container {
+  position: absolute;
+  
+  width: 70%;
+  height: 316px;
+}
+
+.card-img {
+  position: relative;
+  left: 28.79%;
+  width: 70%;
+  height: 100%;
+}

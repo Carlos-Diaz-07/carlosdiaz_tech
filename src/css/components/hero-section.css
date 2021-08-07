@@ -8,7 +8,7 @@
 
 .hero-section p {
   text-align: justify;
-  max-width: 550px;
+  max-width: 60%;
   margin-top: 10px;
 }
 
@@ -23,6 +23,7 @@
 }
 
 .hero-btn p {
+    max-width: none;
     font-size: 18px;
     text-align: center;
     justify-content: center;

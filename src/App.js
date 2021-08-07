@@ -1,9 +1,9 @@
-import logo from './img/Logo.svg';
 import './css/App.css';
 import "./components/NavBar"
 import NavBar from './components/NavBar';
 import HeroSection from './components/HeroSection'
 import AboutMeSection from './components/AboutMeSection';
+import WorkSection from './components/WorkSection';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <NavBar />
       <HeroSection />
       <AboutMeSection />
+      <WorkSection />
     </div>
   );
 }

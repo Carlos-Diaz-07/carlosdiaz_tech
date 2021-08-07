@@ -18,7 +18,7 @@ h1 {
   font-style: normal;
   font-weight: normal;
   /* font-size: 90px; */
-  font-size: 5.5vw;
+  font-size: 6vw;
 
   display: flex;
 
@@ -35,7 +35,7 @@ h2 {
   font-family: Nova Square;
   font-style: normal;
   font-weight: normal;
-  font-size: 4.5vw;
+  font-size: 5.25vw;
 
   display: flex;
 
@@ -62,11 +62,28 @@ h3 {
   color: #ff6f1e;
 }
 
+h4 {
+  font-family: Nova Square;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1vw;
+  
+  width: 60%;
+
+  display: flex;
+
+  align-items: flex-end;
+  text-align: left;
+
+  color: white;
+  
+}
+
 p {
   font-family: Nova Square;
   font-style: normal;
   font-weight: normal;
-  font-size: 1em;
+  font-size: 1.1em;
 
   display: flex;
 
@@ -80,7 +97,7 @@ p {
 .section {
   display: flex;
   flex-direction: column;
-  
+
   width: 60vw;
   height: 100vh;
 
@@ -100,4 +117,11 @@ p {
   width: 30%;
 
   border: 1px solid #ff6f1e;
+}
+
+.card {
+  margin: 1% 0 3% 0;
+  position: relative;
+  width: 100%;
+  height: 45vh;
 }
