@@ -1,7 +1,11 @@
+/*Cards with text box on the left side*/
+.card-left{
+  text-align: right;
+}
 .card-text-container {
   position: absolute;
-  left: 15%;
-  top: 15%;
+  left: 20%;
+  top: 20%;
   z-index: 9;
   max-width: 261px;
   background: rgba(38, 70, 83, 0.75);
@@ -14,7 +18,7 @@
 
 .card-title-left {
   position: absolute;
-  text-align: left;
+  /* text-align: right; */
   top: -8%;
 }
 
@@ -24,16 +28,11 @@
   border: 1px solid #ff6f1e;
 }
 
-.card-img-container {
-  position: absolute;
-  
-  width: 70%;
-  height: 316px;
-}
 
-.card-img {
+
+.card-img-left {
   position: relative;
-  left: 28.79%;
-  width: 70%;
+  /* left: 28.79%; */
+  width: 60%;
   height: 100%;
 }

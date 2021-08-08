@@ -6,7 +6,7 @@ const CardRight = () => {
   return (
     <div className="card-right card">
       <div className="card-text-container-right">
-        <h4 className="card-title-left">Spotify</h4>
+        <h4 className="card-title-right">Spotify</h4>
         <div className="card-title-line"></div>
         <p className="card-text">
           asdasdasdasd asd asd asddsa a asd a add weda adsf af ad cxva seaf ahgr

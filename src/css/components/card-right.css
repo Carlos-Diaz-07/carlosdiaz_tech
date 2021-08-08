@@ -1,3 +1,4 @@
+/*Cards with text box on the right side*/
 .card-right {
     text-align: left;
 
@@ -5,8 +6,8 @@
 
 .card-text-container-right {
   position: absolute;
-  right: 2%;
-  top: 15%;
+  right: 20%;
+  top: 20%;
   z-index: 9;
   max-width: 261px;
   background: rgba(38, 70, 83, 0.75);
@@ -17,8 +18,10 @@
   padding: 20px;
 }
 
-.card-title {
+.card-title-right {
   position: absolute;
+  display: block;
+  text-align: right;
   top: -8%;
   width: 100%;
 }
@@ -29,16 +32,9 @@
   border: 1px solid #ff6f1e;
 }
 
-.card-img-container {
-  position: absolute;
-
-  width: 70%;
-  height: 316px;
-}
-
 .card-img-right {
   position: relative;
   /* right: 28.79%; */
-  width: 70%;
+  width: 60%;
   height: 100%;
 }
