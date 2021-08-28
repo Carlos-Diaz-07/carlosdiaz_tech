@@ -12,40 +12,25 @@
   justify-content: space-between;
   min-width: 100vw;
   height: 59px;
-  left: 0px;
-  top: 0px;
   background: rgba(38, 70, 83, 0.8);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
 .nav-bar-logo {
   margin-left: 8%;
-  padding-top: 7px;
+  padding-top: 10px;
 }
 
 .nav-bar-list {
   display: flex;
   list-style: none;
-  padding: 0;
-  padding-right: 30px;
   width: 350px;
-  /* width: 18.5%; */
-  /* width: 15rem; */
   justify-content: space-between;
-  margin: 0;
   margin-right: 10%;
 }
 
 .nav-bar-item a {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: normal;
-  /* font-size: 120%; */
-  font-size: 1.2rem;
-  /* font-size: 18px; */
-  /* line-height: 22px; */
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
-
   color: #ff6f1e;
 }
 

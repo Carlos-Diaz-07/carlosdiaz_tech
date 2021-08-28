@@ -3,7 +3,7 @@ import "../css/components/contact-section.css";
 
 const ContactSection = () => {
   return (
-    <div className="contact-section section" id="contact-section">
+    <section className="contact-section section" id="contact-section">
       <h3 className="contact-section-title section-title">Contact Me</h3>
       <div className="section-title-line"></div>
       <p>
@@ -24,9 +24,9 @@ const ContactSection = () => {
         rel="noopener noreferrer"
         target="_blank"
       >
-        <p className="btn-text">Get in Touch</p>
+        Get in Touch
       </a>
-    </div>
+    </section>
   );
 };
 

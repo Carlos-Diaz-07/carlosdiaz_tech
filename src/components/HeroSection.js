@@ -3,7 +3,7 @@ import "../css/components/hero-section.css";
 
 const HeroSection = () => {
   return (
-    <div className="hero-section section">
+    <section className="hero-section section">
       <h3>Hi, my name is</h3>
       <h1>Carlos Diaz.</h1>
       <h2>I build things for the web.</h2>
@@ -14,14 +14,14 @@ const HeroSection = () => {
         words all here, chlling out again and again
       </p>
       <a
-        className="hero-btn btn"
+        className="hero-btn btn btn-text"
         href="mailto:diazmelian.carlos@gmail.com"
         rel="noopener noreferrer"
         target="_blank"
       >
-        <p className="btn-text">Get in Touch</p>
+        Get in Touch
       </a>
-    </div>
+    </section>
   );
 };
 export default HeroSection;

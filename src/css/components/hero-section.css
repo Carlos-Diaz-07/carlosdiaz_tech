@@ -1,18 +1,12 @@
-.hero-section {
-  display: flex;
-  flex-direction: column;
 
-  align-items: left;
-  justify-content: center;
+.hero-section{
+  min-height: 90vh;
+  margin-top: clamp(59px, 10vh, 10vh);
 }
 
 .hero-section h2 {
   margin-bottom: 10px;
 }
 
-.hero-section p {
-  
-  max-width: 60%;
-  
-}
+
 

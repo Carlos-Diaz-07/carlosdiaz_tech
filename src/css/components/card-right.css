@@ -4,7 +4,7 @@
 
 }
 
-.card-text-container-right {
+.card-text-container {
   position: absolute;
   right: 20%;
   top: 20%;
@@ -14,27 +14,24 @@
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
+.right {
+  right: 20%;
+}
+
 .card-text {
   padding: 20px;
 }
 
-.card-title-right {
+.card-right .card-title {
   position: absolute;
   display: block;
   text-align: right;
-  top: -8%;
+  top: -10%;
   width: 100%;
 }
 
 .card-title-line {
   width: 100%;
-
-  border: 1px solid #ff6f1e;
-}
-
-.card-img-right {
-  position: relative;
-  /* right: 28.79%; */
-  width: 60%;
-  height: 100%;
+  background-color: #ff6f1e;
+  border: 0.5px solid #ff6f1e;
 }

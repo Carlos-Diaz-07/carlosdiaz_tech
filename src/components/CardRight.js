@@ -5,8 +5,8 @@ import img from "../img/app-img.jpg";
 const CardRight = () => {
   return (
     <div className="card-right card">
-      <div className="card-text-container-right">
-        <h4 className="card-title-right">Spotify</h4>
+      <div className="card-text-container right">
+        <h4 className="card-title">Spotify</h4>
         <div className="card-title-line"></div>
         <p className="card-text">
           asdasdasdasd asd asd asddsa a asd a add weda adsf af ad cxva seaf ahgr
@@ -16,7 +16,7 @@ const CardRight = () => {
         </p>
       </div>
 
-      <img src={img} alt="alt" className="card-img-right" />
+      <img src={img} alt="alt" className="card-img" />
     </div>
   );
 };

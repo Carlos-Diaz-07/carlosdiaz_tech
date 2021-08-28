@@ -1,11 +1,7 @@
 .contact-section {
-    justify-content: center;
     align-items: center;
 }
 
-.contact-form {
-    align-content: center;
-}
 
 .contact-section-title {
     justify-content: center;
@@ -13,18 +9,7 @@
 }
 
 .contact-section p {
-    text-align: center;
+    /* text-align: center; */
     width: 60%;
     margin: 10px;
-}
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    text-align: center;
-    align-content: center;
-    justify-content: center;
-    align-self: center;
-    justify-self: center;
 }

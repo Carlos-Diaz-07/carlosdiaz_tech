@@ -1,5 +1,7 @@
 .about-me-section {
   position: relative;
+  min-height: 90vh;
+  margin-bottom: 10vh;
 }
 
 
@@ -32,6 +34,6 @@
   position: absolute;
   left: 77%;
   right: 0%;
-  top: 20%;
+  top: 15%;
   bottom: 0%;
 }

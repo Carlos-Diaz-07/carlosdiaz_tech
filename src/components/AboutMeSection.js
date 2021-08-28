@@ -4,7 +4,7 @@ import smallCarlos from "../img/small-carlos.png"
 
 const AboutMeSection = () => {
   return (
-    <div className="about-me-section section" id="about-me-section">
+    <section className="about-me-section section" id="about-me-section">
       <h3 className="about-me-section-title section-title">About Me</h3>
       <div className="section-title-line"></div>
       <p>
@@ -32,7 +32,7 @@ const AboutMeSection = () => {
           <li>NodeJs</li>
       </ul>
       <img src={smallCarlos} alt="" className="small-carlos"/>
-    </div>
+    </section>
   );
 };
 

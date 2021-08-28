@@ -2,9 +2,9 @@
 .card-left{
   text-align: right;
 }
+
 .card-text-container {
   position: absolute;
-  left: 20%;
   top: 20%;
   z-index: 9;
   max-width: 261px;
@@ -12,27 +12,27 @@
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
+.left {
+  left: 20%;
+}
+
 .card-text {
   padding: 20px;
 }
 
-.card-title-left {
+.card-title {
   position: absolute;
-  /* text-align: right; */
-  top: -8%;
+  top: -10%;
 }
 
 .card-title-line {
   width: 100%;
-
-  border: 1px solid #ff6f1e;
+  background-color: #ff6f1e;
+  border: 0.5px solid #ff6f1e;
 }
 
-
-
-.card-img-left {
+.card-img {
   position: relative;
-  /* left: 28.79%; */
   width: 60%;
   height: 100%;
 }
