@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/components/work-section.css";
 import CardRight from "./CardRight";
 import CardLeft from "./CardLeft";
 

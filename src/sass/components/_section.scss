@@ -1,0 +1,19 @@
+.section {
+    display: flex;
+    flex-direction: column;
+  
+    width: 60vw;
+    height: 100vh;
+    
+    justify-content: center;
+  }
+  
+  .section-title {
+    color: white;
+  }
+  
+  .section-title-line {
+    margin: 0 0 10px;
+    width: 30%;
+    border: 1px solid $accent-color;
+  }

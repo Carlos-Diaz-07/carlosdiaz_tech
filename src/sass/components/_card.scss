@@ -1,0 +1,56 @@
+.card {
+  margin: 2% 0 5% 0;
+  position: relative;
+  height: 45vh;
+}
+
+.card-title {
+  position: absolute;
+  top: -10%;
+}
+
+.card-text-container {
+  position: absolute;
+  top: 20%;
+  z-index: 9;
+  max-width: 261px;
+  background: $primary-color-transparent;
+  filter: $shadow-right-bottom-strong;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card-title-line {
+  width: 100%;
+  background-color: $accent-color;
+  border: 0.5px solid $accent-color;
+}
+
+.card-img {
+  position: relative;
+  width: 60%;
+  height: 100%;
+}
+
+// Card with text box on the right side
+.card-right {
+  text-align: left;
+  .card-text-container {
+    right: 20%;
+  }
+  .card-title {
+    display: block;
+    text-align: right;
+    width: 100%;
+  }
+}
+
+// Card with the text box on the left side
+.card-left {
+  text-align: right;
+  .card-text-container {
+    left: 20%;
+  }
+}

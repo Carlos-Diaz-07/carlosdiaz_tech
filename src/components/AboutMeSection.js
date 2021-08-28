@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/components/about-me-section.css";
 import smallCarlos from "../img/small-carlos.png"
 
 const AboutMeSection = () => {

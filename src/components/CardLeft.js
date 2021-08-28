@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/components/card-left.css";
 import img from "../img/app-img.jpg"
 
 const CardLeft = () => {

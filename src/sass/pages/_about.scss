@@ -1,0 +1,38 @@
+.about-me-section {
+    position: relative;
+    margin-bottom: 10vh;
+
+    p {
+      width: 70%;
+    }
+
+    ul {
+      display: flex;
+      flex-flow: column wrap;
+      text-align: left;
+      width: 80%;
+      height: 150px;
+      padding: 30px 50px;
+    }
+
+    li {
+      font-family: Nova Square;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: -0.05em;
+      font-feature-settings: "kern" off;
+    
+      color: $accent-color;
+    }
+
+  }
+  
+  .small-carlos {
+    position: absolute;
+    left: 77%;
+    right: 0%;
+    top: 15%;
+    bottom: 0%;
+  }

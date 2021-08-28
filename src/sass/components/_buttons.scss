@@ -1,0 +1,13 @@
+.btn {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    border: 2px solid $accent-color;
+    border-radius: 11px;
+    width: 175px;
+    height: 53px;
+    filter: $shadow-bottom-light;
+    justify-content: center;
+    color: $accent-color;
+  }
+  
