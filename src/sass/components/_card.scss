@@ -1,37 +1,46 @@
 .card {
-  margin: 2% 0 5% 0;
+  margin: 3% 0;
   position: relative;
   height: 45vh;
-}
-
-.card-title {
-  position: absolute;
-  top: -10%;
 }
 
 .card-text-container {
   position: absolute;
   top: 20%;
   z-index: 9;
-  max-width: 261px;
+  width: clamp(200px, 260px, 320px);
+  height: clamp(200px, 230px, 260px);
   background: $primary-color-transparent;
   filter: $shadow-right-bottom-strong;
+
+  .card-title {
+    position: absolute;
+    top: -10%;
+  }
+
+  .card-title-line {
+    width: 100%;
+    background-color: $accent-color;
+    border: 0.5px solid $accent-color;
+  }
+
+  .card-text {
+    padding: 15px 15px 0 15px;
+  }
 }
 
-.card-text {
-  padding: 20px;
-}
-
-.card-title-line {
-  width: 100%;
-  background-color: $accent-color;
-  border: 0.5px solid $accent-color;
-}
-
+// Card images & Overlay
 .card-img {
-  position: relative;
-  width: 60%;
-  height: 100%;
+  width: clamp(400px, 60%, 600px);
+  height: clamp(200px, 100%, 600px);
+}
+
+.overlay {
+  position: absolute;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+  top: 0%;
+  width: clamp(400px, 60%, 600px);
+  height: clamp(200px, 100%, 600px);
 }
 
 // Card with text box on the right side
@@ -45,6 +54,10 @@
     text-align: right;
     width: 100%;
   }
+
+  .card-links {
+    right: 5%;
+  }
 }
 
 // Card with the text box on the left side
@@ -52,5 +65,31 @@
   text-align: right;
   .card-text-container {
     left: 20%;
+  }
+
+  .overlay {
+    right: 0%;
+  }
+
+  .card-links {
+    left: 5%;
+  }
+}
+
+.card-links {
+  position: absolute;
+  width: 30%;
+  bottom: 2%;
+  align-content: space-between;
+  justify-content: space-between;
+
+  a {
+    margin: 0 5px;
+  }
+
+  svg {
+    color: $accent-color;
+    width: 20px;
+    height: 20px;
   }
 }

@@ -49,44 +49,40 @@ a {
 }
 
 .card {
-  margin: 3% 0;
+  margin: 2% 0 5% 0;
   position: relative;
   height: 45vh;
+}
+
+.card-title {
+  position: absolute;
+  top: -10%;
 }
 
 .card-text-container {
   position: absolute;
   top: 20%;
   z-index: 9;
-  width: clamp(200px, 260px, 320px);
-  height: clamp(200px, 230px, 260px);
+  width: clamp(200px, 261px, 261px);
+  height: clamp(200px, 230px, 230px);
   background: rgba(38, 70, 83, 0.8);
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
 }
-.card-text-container .card-title {
-  position: absolute;
-  top: -10%;
+
+.card-text {
+  padding: 20px;
 }
-.card-text-container .card-title-line {
+
+.card-title-line {
   width: 100%;
   background-color: #ff6f1e;
   border: 0.5px solid #ff6f1e;
 }
-.card-text-container .card-text {
-  padding: 15px 15px 0 15px;
-}
 
 .card-img {
-  width: clamp(400px, 60%, 600px);
-  height: clamp(200px, 100%, 600px);
-}
-
-.overlay {
-  position: absolute;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
-  top: 0%;
-  width: clamp(400px, 60%, 600px);
-  height: clamp(200px, 100%, 600px);
+  position: relative;
+  width: 60%;
+  height: 100%;
 }
 
 .card-right {
@@ -100,37 +96,12 @@ a {
   text-align: right;
   width: 100%;
 }
-.card-right .card-links {
-  right: 5%;
-}
 
 .card-left {
   text-align: right;
 }
 .card-left .card-text-container {
   left: 20%;
-}
-.card-left .overlay {
-  right: 0%;
-}
-.card-left .card-links {
-  left: 5%;
-}
-
-.card-links {
-  position: absolute;
-  width: 30%;
-  bottom: 2%;
-  align-content: space-between;
-  justify-content: space-between;
-}
-.card-links a {
-  margin: 0 5px;
-}
-.card-links svg {
-  color: #ff6f1e;
-  width: 20px;
-  height: 20px;
 }
 
 .btn {
@@ -278,4 +249,4 @@ body {
   background: #264653;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css%23.map */
